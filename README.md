@@ -46,13 +46,13 @@ To run this project locally, you need to have Node.js and MongoDB installed.
 4. Create a `.env` file in the backend directory and add the following environment variables:
 
     ```env
-MONGODB_URI = mongodb+srv://<username>:password@cluster0.gwa9zwr.mongodb.net
-PORT = 4040
-DB_NAME = XCELORE
-CORS_ORIGIN = http://localhost:3000
-# CORS_ORIGIN =*
-ACCESS_TOKEN_SECRET =  705459F64D90F7F49BA5FF245CB8CDE7269873A7609EBCDD3EF512F384F69884
-ACCESS_TOKEN_EXPIRY = 1d
+      MONGODB_URI = mongodb+srv://<username>:password@cluster0.gwa9zwr.mongodb.net
+      PORT = 4040
+      DB_NAME = XCELORE
+      CORS_ORIGIN = http://localhost:3000
+      # CORS_ORIGIN =*
+      ACCESS_TOKEN_SECRET =  705459F64D90F7F49BA5FF245CB8CDE7269873A7609EBCDD3EF512F384F69884
+      ACCESS_TOKEN_EXPIRY = 1d
     ```
 Note: Please add the .env file when you run on your local system
 
